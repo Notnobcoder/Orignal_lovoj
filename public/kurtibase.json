@@ -1,0 +1,173 @@
+{
+    "menu" :[
+        {
+            "name" : "female",
+            "icon": "/modelsNew/Shirt.png",
+            "skip": true,
+            "display": "yes",
+            "submenu" : [
+                {
+                    "name" : "female",
+                    "icon" : "/modelsNew/Jacket.png",
+                    "skip" : true,
+                    "model" : [
+                        {
+                            "name" : "female",
+                            "path" : "/kurti/female/female.obj",
+                            "skip" : false,
+                            "glossy" : false,
+                            "angle" : 0,
+                            "height" : 0,
+                            "zoomlevel" : 2
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name" : "Dress_Back_Boat",
+            "icon" : "/modelsNew/Jacket.png",
+            "skip" : true,
+            "display" : "yes",
+            "submenu" : [
+                {
+                    "name" : "Dress_Back_Boat",
+                    "icon" : "/modelsNew/Jacket.png",
+                    "skip" : true,
+                    "model" : [
+                        {
+                            "name" : "Dress_Back_Boat",
+                            "path" : "/kurti/female/base/Dress_Back_Boat.obj",
+                            "skip" : false,
+                            "glossy" : false,
+                            "angle" : 0,
+                            "height" : 0,
+                            "zoomlevel" : 2
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name" : "Dress_Churidar_Abs",
+            "icon" : "/modelsNew/Jacket.png",
+            "skip" : true,
+            "display" : "yes",
+            "submenu" : [
+                {
+                    "name" : "Dress_Churidar_Abs",
+                    "icon" : "/modelsNew/Jacket.png",
+                    "skip" : true,
+                    "model" : [
+                        {
+                            "name" : "Dress_Churidar_Abs",
+                            "path" : "/kurti/female/base/Dress_Churidar_Abs.obj",
+                            "skip" : false,
+                            "glossy" : false,
+                            "angle" : 0,
+                            "height" : 0,
+                            "zoomlevel" : 2
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name" : "Dress_Churidar_Leg",
+            "icon" : "/modelsNew/Jacket.png",
+            "skip" : true,
+            "display" : "yes",
+            "submenu" : [
+                {
+                    "name" : "Dress_Churidar_Leg",
+                    "icon" : "/modelsNew/Jacket.png",
+                    "skip" : true,
+                    "model" : [
+                        {
+                            "name" : "Dress_Churidar_Leg",
+                            "path" : "/kurti/female/base/Dress_Churidar_Leg.obj",
+                            "skip" : false,
+                            "glossy" : false,
+                            "angle" : 0,
+                            "height" : 0,
+                            "zoomlevel" : 2
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name" : "Dress_Lenght_Mid_Thigh",
+            "icon" : "/modelsNew/Jacket.png",
+            "skip" : true,
+            "display" : "yes",
+            "submenu" : [
+                {
+                    "name" : "Dress_Lenght_Mid_Thigh",
+                    "icon" : "/modelsNew/Jacket.png",
+                    "skip" : true,
+                    "model" : [
+                        {
+                            "name" : "Dress_Lenght_Mid_Thigh",
+                            "path" : "/kurti/female/base/Dress_Lenght_Mid_Thigh.obj",
+                            "skip" : false,
+                            "glossy" : false,
+                            "angle" : 0,
+                            "height" : 0,
+                            "zoomlevel" : 2
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name" : "Dress_Neck_Boat",
+            "icon" : "/modelsNew/Jacket.png",
+            "skip" : true,
+            "display" : "yes",
+            "submenu" : [
+                {
+                    "name" : "Dress_Neck_Boat",
+                    "icon" : "/modelsNew/Jacket.png",
+                    "skip" : true,
+                    "model" : [
+                        {
+                            "name" : "Dress_Neck_Boat",
+                            "path" : "/kurti/female/base/Dress_Neck_Boat.obj",
+                            "skip" : false,
+                            "glossy" : false,
+                            "angle" : 0,
+                            "height" : 0,
+                            "zoomlevel" : 2
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name" : "Dress_Sleeve_Short",
+            "icon" : "/modelsNew/Jacket.png",
+            "skip" : true,
+            "display" : "yes",
+            "submenu" : [
+                {
+                    "name" : "Dress_Sleeve_Short",
+                    "icon" : "/modelsNew/Jacket.png",
+                    "skip" : true,
+                    "model" : [
+                        {
+                            "name" : "Dress_Sleeve_Short",
+                            "path" : "/kurti/female/base/Dress_Sleeve_Short.obj",
+                            "skip" : false,
+                            "glossy" : false,
+                            "angle" : 0,
+                            "height" : 0,
+                            "zoomlevel" : 2
+                        }
+                    ]
+                }
+            ]
+        }
+
+    ]
+}

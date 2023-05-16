@@ -1,0 +1,549 @@
+{
+    "menu" : [
+        {
+            "name" : "Lady",
+            "icon" : "/modelsNew/Jacket.png",
+            "skip" : true,
+            "display" : "yes",
+            "submenu" : [
+                {
+                    "name" : "Lady",
+                    "icon" : "/modelsNew/Jacket.png",
+                    "skip" : true,
+                    "model" : [
+                        {
+                            "name" : "Lady",
+                            "path" : "/Lady/Model/female.obj",
+                            "skip" : false,
+                            "glossy" : false,
+                            "angle" : 0,
+                            "height" : 0,
+                            "zoomlevel" : 2,
+                            "visible" : true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name" : "Back",
+            "icon" : "/modelsNew/Jacket.png",
+            "skip" : true,
+            "display" : "yes",
+            "submenu" : [
+                {
+                    "name" : "Back_type",
+                    "icon" : "/Lady/Back/back.png",
+                    "skip" : false,
+                    "model" : [
+                        {
+                            "name" : "Back_In",
+                            "path" : "/Lady/Back/back_in.obj",
+                            "skip" : false,
+                            "glossy" : false,
+                            "angle" : 0,
+                            "icon" : "/Lady/Back/back.png",
+                            "height" : 0,
+                            "zoomlevel" : 2,
+                            "visible" : true
+                        },
+                        {
+                            "name" : "Back2_In",
+                            "icon" : "/Lady/Back/back2.png",
+                            "path" : "/Lady/Back/back2_in.obj",
+                            "skip" : false,
+                            "glossy" : false,
+                            "angle" : 0,
+                            "height" : 0,
+                            "zoomlevel" : 2,
+                            "visible" : false
+                        }
+
+                    ]
+                },
+                {
+                    "name" : "Neck_Type",
+                    "icon" : "/Lady/Back/boat_neck_back.png",
+                    "skip" : false,
+                    "model" : [
+                        {
+                            "name" : "Boat_Neck_Back_STD",
+                            "path" : "/Lady/Back/boat_neck_back_in.obj",
+                            "icon" : "/Lady/Back/boat_neck_back.png",
+                            "skip" : false,
+                            "glossy" : false,
+                            "angle" : 0,
+                            "height" : 0,
+                            "zoomlevel" : 2,
+                            "visible" : false
+                        },
+                        {
+                            "name" : "Collar_V_Neck",
+                            "path" : "/Lady/Back/collar_V_neck_deep_back_in.obj",
+                            "icon" : "/Lady/Back/collar_V_neck_deep_back.png",
+                            "skip" : false,
+                            "glossy" : false,
+                            "angle" : 0,
+                            "height" : 0,
+                            "zoomlevel" : 2,
+                            "visible" : false
+                        }
+                    ]
+                    
+                }
+            ]
+        },
+        {
+            "name" : "Front",
+            "icon" : "/modelsNew/Jacket.png",
+            "skip" : true,
+            "display" : "yes",
+            "submenu" : [
+                {
+                    "name" : "Front_type",
+                    "icon" : "/Lady/Back/back.png",
+                    "skip" : false,
+                    "model" : [
+                        {
+                            "name" : "front_in",
+                            "path" : "/Lady/Front/front_in.obj",
+                            "skip" : false,
+                            "glossy" : false,
+                            "angle" : 0,
+                            "icon" : "/Lady/Front/front.png",
+                            "height" : 0,
+                            "zoomlevel" : 2,
+                            "visible" : true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name" : "Length",
+            "icon" : "/modelsNew/Jacket.png",
+            "skip" : true,
+            "display" : "yes",
+            "submenu" : [
+                {
+                    "name" : "With_Cut",
+                    "icon" : "/Lady/Lenght/withcut/abovekneelength.png",
+                    "skip" : false,
+                    "model" : [
+                        {
+                            "name" : "AboveKnee",
+                            "path" : "/Lady/Lenght/withcut/abovekneelength.obj",
+                            "skip" : false,
+                            "glossy" : false,
+                            "angle" : 0,
+                            "icon" : "/Lady/Lenght/withcut/abovekneelength.png",
+                            "height" : 0,
+                            "zoomlevel" : 2,
+                            "visible" : true
+                        },
+                        {
+                            "name" : "Ankle_Length",
+                            "path" : "/Lady/Lenght/withcut/ankle_length_in.obj",
+                            "skip" : false,
+                            "glossy" : false,
+                            "angle" : 0,
+                            "icon" : "/Lady/Lenght/withcut/ankle_length.png",
+                            "height" : 0,
+                            "zoomlevel" : 2,
+                            "visible" : false
+                        },
+                        {
+                            "name" : "Below_Knee",
+                            "path" : "/Lady/Lenght/withcut/below_knee_length_in.obj",
+                            "skip" : false,
+                            "glossy" : false,
+                            "angle" : 0,
+                            "icon" : "/Lady/Lenght/withcut/below_knee_length.png",
+                            "height" : 0,
+                            "zoomlevel" : 2,
+                            "visible" : false
+                        },
+                        {
+                            "name" : "Knee_Length",
+                            "path" : "/Lady/Lenght/withcut/knee_length_in.obj",
+                            "skip" : false,
+                            "glossy" : false,
+                            "angle" : 0,
+                            "icon" : "/Lady/Lenght/withcut/knee_length.png",
+                            "height" : 0,
+                            "zoomlevel" : 2,
+                            "visible" : false
+                        },
+                        {
+                            "name" : "Long_Length",
+                            "path" : "/Lady/Lenght/withcut/long_length_in.obj",
+                            "skip" : false,
+                            "glossy" : false,
+                            "angle" : 0,
+                            "icon" : "/Lady/Lenght/withcut/long_length.png",
+                            "height" : 0,
+                            "zoomlevel" : 2,
+                            "visible" : false
+                        },
+                        {
+                            "name" : "Mid_Thigh_Length",
+                            "path" : "/Lady/Lenght/withcut/mid_thigh_length_in.obj",
+                            "skip" : false,
+                            "glossy" : false,
+                            "angle" : 0,
+                            "icon" : "/Lady/Lenght/withcut/mid_thigh_length.png",
+                            "height" : 0,
+                            "zoomlevel" : 2,
+                            "visible" : false
+                        },
+                        {
+                            "name" : "Short_Length",
+                            "path" : "/Lady/Lenght/withcut/short_length_in.obj",
+                            "skip" : false,
+                            "glossy" : false,
+                            "angle" : 0,
+                            "icon" : "/Lady/Lenght/withcut/short_length.png",
+                            "height" : 0,
+                            "zoomlevel" : 2,
+                            "visible" : false
+                        }
+                    ]
+                },
+                {
+                    "name" : "With_Out_Cut",
+                    "icon" : "/Lady/Lenght/withcut/above_knee_length_without_cut.png",
+                    "skip" : false,
+                    "model" : [
+                        {
+                            "name" : "AboveKnee",
+                            "path" : "/Lady/Lenght/withoutcut/above_knee_length_without_cut_in.obj",
+                            "skip" : false,
+                            "glossy" : false,
+                            "angle" : 0,
+                            "icon" : "/Lady/Lenght/withoutcut/above_knee_length_without_cut.png",
+                            "height" : 0,
+                            "zoomlevel" : 2,
+                            "visible" : true
+                        },
+                        {
+                            "name" : "Ankle_Length",
+                            "path" : "/Lady/Lenght/withoutcut/ankle_length_without_cut_in.obj",
+                            "skip" : false,
+                            "glossy" : false,
+                            "angle" : 0,
+                            "icon" : "/Lady/Lenght/withoutcut/ankle_length_without_cut.png",
+                            "height" : 0,
+                            "zoomlevel" : 2,
+                            "visible" : false
+                        },
+                        {
+                            "name" : "Below_Knee",
+                            "path" : "/Lady/Lenght/withoutcut/below_knee_length_without_cut_in.obj",
+                            "skip" : false,
+                            "glossy" : false,
+                            "angle" : 0,
+                            "icon" : "/Lady/Lenght/withoutcut/below_knee_length_without_cut.png",
+                            "height" : 0,
+                            "zoomlevel" : 2,
+                            "visible" : false
+                        },
+                        {
+                            "name" : "Knee_Length",
+                            "path" : "/Lady/Lenght/withoutcut/knee_length_without_cut_in.obj",
+                            "skip" : false,
+                            "glossy" : false,
+                            "angle" : 0,
+                            "icon" : "/Lady/Lenght/withoutcut/knee_length_without_cut.png",
+                            "height" : 0,
+                            "zoomlevel" : 2,
+                            "visible" : false
+                        },
+                        {
+                            "name" : "Long_Length",
+                            "path" : "/Lady/Lenght/withoutcut/long_length_without_cut_in.obj",
+                            "skip" : false,
+                            "glossy" : false,
+                            "angle" : 0,
+                            "icon" : "/Lady/Lenght/withoutcut/long_length_without_cut.png",
+                            "height" : 0,
+                            "zoomlevel" : 2,
+                            "visible" : false
+                        },
+                        {
+                            "name" : "Mid_Thigh_Length",
+                            "path" : "/Lady/Lenght/withoutcut/mid_thigh_Length_without_cut_in.obj",
+                            "skip" : false,
+                            "glossy" : false,
+                            "angle" : 0,
+                            "icon" : "/Lady/Lenght/withoutcut/mid_thigh_Length_without_cut.png",
+                            "height" : 0,
+                            "zoomlevel" : 2,
+                            "visible" : false
+                        },
+                        {
+                            "name" : "Short_Length",
+                            "path" : "/Lady/Lenght/withoutcut/short_length_without_cut_in.obj",
+                            "skip" : false,
+                            "glossy" : false,
+                            "angle" : 0,
+                            "icon" : "/Lady/Lenght/withoutcut/short_length_without_cut.png",
+                            "height" : 0,
+                            "zoomlevel" : 2,
+                            "visible" : false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name" : "Neck",
+            "icon" : "/modelsNew/Jacket.png",
+            "skip" : true,
+            "display" : "yes",
+            "submenu" : [
+                {
+                    "name" : "Neck_type",
+                    "icon" : "/Lady/Back/back.png",
+                    "skip" : false,
+                    "model" : [
+                        {
+                            "name" : "boat_Neck",
+                            "path" : "/Lady/Neck/boat_neck_front_in.obj",
+                            "skip" : false,
+                            "glossy" : false,
+                            "angle" : 0,
+                            "icon" : "/Lady/Neck/boat_neck_front.png",
+                            "height" : 0,
+                            "zoomlevel" : 2,
+                            "visible" : true
+                        },
+                        {
+                            "name" : "Classic_Collar",
+                            "path" : "/Lady/Neck/classic_shirt_collar_in.obj",
+                            "skip" : false,
+                            "glossy" : false,
+                            "angle" : 0,
+                            "icon" : "/Lady/Neck/classic_shirt_collar.png",
+                            "height" : 0,
+                            "zoomlevel" : 2,
+                            "visible" : false
+                        },
+                        {
+                            "name" : "Collar_V",
+                            "path" : "/Lady/Neck/collar_V_neck_deep_in.obj",
+                            "skip" : false,
+                            "glossy" : false,
+                            "angle" : 0,
+                            "icon" : "/Lady/Neck/collar_V_neck_deep.png",
+                            "height" : 0,
+                            "zoomlevel" : 2,
+                            "visible" : false
+                        },
+                        {
+                            "name" : "Cowl_Neck",
+                            "path" : "/Lady/Neck/cowl_neck_in.obj",
+                            "skip" : false,
+                            "glossy" : false,
+                            "angle" : 0,
+                            "icon" : "/Lady/Neck/cowl_neck.png",
+                            "height" : 0,
+                            "zoomlevel" : 2,
+                            "visible" : false
+                        },
+                        {
+                            "name" : "Scalloped_Neck",
+                            "path" : "/Lady/Neck/scalloped_neck_in.obj",
+                            "skip" : false,
+                            "glossy" : false,
+                            "angle" : 0,
+                            "icon" : "/Lady/Neck/scalloped_neck.png",
+                            "height" : 0,
+                            "zoomlevel" : 2,
+                            "visible" : false
+                        },
+                        {
+                            "name" : "Standup",
+                            "path" : "/Lady/Neck/standup_collar_with_sweet_heart_neck_in.obj",
+                            "skip" : false,
+                            "glossy" : false,
+                            "angle" : 0,
+                            "icon" : "/Lady/Neck/standup_collar_with_sweet_heart_neck.png",
+                            "height" : 0,
+                            "zoomlevel" : 2,
+                            "visible" : false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name" : "Sleeve",
+            "icon" : "/Lady/Sleeve/bell_bottom_sleeve.png",
+            "skip" : true,
+            "display" : "yes",
+            "submenu" : [
+                {
+                    "name" : "Sleeve_type",
+                    "icon" : "/Lady/Back/back.png",
+                    "skip" : false,
+                    "model" : [
+                        {
+                            "name" : "Bell_Bottom",
+                            "path" : "/Lady/Sleeve/bell_bottom_sleeve_in.obj",
+                            "skip" : false,
+                            "glossy" : false,
+                            "angle" : 0,
+                            "icon" : "/Lady/Sleeve/bell_bottom_sleeve.png",
+                            "height" : 0,
+                            "zoomlevel" : 2,
+                            "visible" : true
+                        },
+                        {
+                            "name" : "Bud_Sleeve",
+                            "path" : "/Lady/Sleeve/bud_sleeve_in.obj",
+                            "skip" : false,
+                            "glossy" : false,
+                            "angle" : 0,
+                            "icon" : "/Lady/Sleeve/bud_sleeve.png",
+                            "height" : 0,
+                            "zoomlevel" : 2,
+                            "visible" : false
+                        },
+                        {
+                            "name" : "Butterfly_Sleeve",
+                            "path" : "/Lady/Sleeve/butterfly_sleeve_in.obj",
+                            "skip" : false,
+                            "glossy" : false,
+                            "angle" : 0,
+                            "icon" : "/Lady/Sleeve/butterfly_sleeve.png",
+                            "height" : 0,
+                            "zoomlevel" : 2,
+                            "visible" : false
+                        },
+                        {
+                            "name" : "Cap_Sleeve",
+                            "path" : "/Lady/Sleeve/cap_sleeve_in.obj",
+                            "skip" : false,
+                            "glossy" : false,
+                            "angle" : 0,
+                            "icon" : "/Lady/Sleeve/cap_sleeve.png",
+                            "height" : 0,
+                            "zoomlevel" : 2,
+                            "visible" : false
+                        },
+                        {
+                            "name" : "Cap_Small_Sleeve",
+                            "path" : "/Lady/Sleeve/cap_small_sleeve_in.obj",
+                            "skip" : false,
+                            "glossy" : false,
+                            "angle" : 0,
+                            "icon" : "/Lady/Sleeve/cap_small_sleeve.png",
+                            "height" : 0,
+                            "zoomlevel" : 2,
+                            "visible" : false
+                        },
+                        {
+                            "name" : "Cap_Small_Sleeve",
+                            "path" : "/Lady/Sleeve/cap_small_sleeve_in.obj",
+                            "skip" : false,
+                            "glossy" : false,
+                            "angle" : 0,
+                            "icon" : "/Lady/Sleeve/cap_small_sleeve.png",
+                            "height" : 0,
+                            "zoomlevel" : 2,
+                            "visible" : false
+                        },
+                        {
+                            "name" : "Elbow_Sleeve",
+                            "path" : "/Lady/Sleeve/elbow_length_sleeve_in.obj",
+                            "skip" : false,
+                            "glossy" : false,
+                            "angle" : 0,
+                            "icon" : "/Lady/Sleeve/elbow_length_sleeve.png",
+                            "height" : 0,
+                            "zoomlevel" : 2,
+                            "visible" : false
+                        },
+                        {
+                            "name" : "Flounce_Sleeve",
+                            "path" : "/Lady/Sleeve/flounce_sleeve_in.obj",
+                            "skip" : false,
+                            "glossy" : false,
+                            "angle" : 0,
+                            "icon" : "/Lady/Sleeve/flounce_sleeve.png",
+                            "height" : 0,
+                            "zoomlevel" : 2,
+                            "visible" : false
+                        },
+                        {
+                            "name" : "Full_Sleeve",
+                            "path" : "/Lady/Sleeve/full_sleeve_in.obj",
+                            "skip" : false,
+                            "glossy" : false,
+                            "angle" : 0,
+                            "icon" : "/Lady/Sleeve/full_sleeve.png",
+                            "height" : 0,
+                            "zoomlevel" : 2,
+                            "visible" : false
+                        },
+                        {
+                            "name" : "Half_Sleeve",
+                            "path" : "/Lady/Sleeve/half_sleeve_in.obj",
+                            "skip" : false,
+                            "glossy" : false,
+                            "angle" : 0,
+                            "icon" : "/Lady/Sleeve/half_sleeve.png",
+                            "height" : 0,
+                            "zoomlevel" : 2,
+                            "visible" : false
+                        },
+                        {
+                            "name" : "Leaf_Sleeve",
+                            "path" : "/Lady/Sleeve/Leaf_sleeve_in.obj",
+                            "skip" : false,
+                            "glossy" : false,
+                            "angle" : 0,
+                            "icon" : "/Lady/Sleeve/Leaf_sleeve.png",
+                            "height" : 0,
+                            "zoomlevel" : 2,
+                            "visible" : false
+                        },
+                        {
+                            "name" : "Long_Puff",
+                            "path" : "/Lady/Sleeve/long_puff_sleeve_in.obj",
+                            "skip" : false,
+                            "glossy" : false,
+                            "angle" : 0,
+                            "icon" : "/Lady/Sleeve/long_puff_sleeve.png",
+                            "height" : 0,
+                            "zoomlevel" : 2,
+                            "visible" : false
+                        },
+                        {
+                            "name" : "Petal_Loose",
+                            "path" : "/Lady/Sleeve/petal_loose_sleeve_in.obj",
+                            "skip" : false,
+                            "glossy" : false,
+                            "angle" : 0,
+                            "icon" : "/Lady/Sleeve/petal_loose_sleeve.png",
+                            "height" : 0,
+                            "zoomlevel" : 2,
+                            "visible" : false
+                        },
+                        {
+                            "name" : "Puff_Loose",
+                            "path" : "/Lady/Sleeve/puff_sleeve_in.obj",
+                            "skip" : false,
+                            "glossy" : false,
+                            "angle" : 0,
+                            "icon" : "/Lady/Sleeve/puff_sleeve.png",
+                            "height" : 0,
+                            "zoomlevel" : 2,
+                            "visible" : false
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

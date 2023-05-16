@@ -1,0 +1,181 @@
+@import "../../../../../theme/fonts/index.scss";
+.filterCust-sidebar{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 300px;
+  //   height: 100%;
+  background-color: #FAFAFA;
+  z-index: 999;
+  // padding: 25px;
+  font-family: $fontFamily;
+  min-height: 100vh;
+  opacity: 1;
+  transition: opacity 2.5s ease;
+  //   border-radius: 0 20px 20px 0;
+  box-shadow: 5px -5px 20px -6px rgba(87, 79, 87, 0.39);
+  -webkit-box-shadow: 5px -5px 20px -6px rgba(87, 79, 87, 0.39);
+  -moz-box-shadow: 5px -5px 20px -6px rgba(87, 79, 87, 0.39);
+  @media screen and (max-width: 600px) {
+    border-radius: 0 0 100px 0;
+  }
+  .heading-filter {
+    width: 80%;
+    margin: 32px auto;
+    p {
+      color: rgba(1, 114, 182, 1) !important;
+    }
+  }
+  .arrow-left {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    color: white;
+    border-radius: 3px;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 4px;
+    // background-color: rgba(1, 114, 182, 1);
+    position: absolute;
+    right: 20px;
+    top: 10px;
+  }
+  &__profile {
+    display: flex;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.11);
+    flex: 1;
+    height: auto;
+    align-items: center;
+    &--details {
+      margin-left: 15px;
+      .location {
+        display: flex;
+        .address {
+          font-size: 12px;
+          color: rgba(0, 0, 0, 0.4);
+          margin-left: 5px;
+        }
+      }
+    }
+  }
+  .inboxes,
+  .css-10hburv-MuiTypography-root {
+    font-size: 12px;
+    // color: rgba(0, 0, 0, 0.4);
+    margin-left: 0px !important;
+    margin-top: -4px;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 18px;
+    line-height: 24px;
+    /* identical to box height */
+
+    color: #000000 !important;
+    .css-cveggr-MuiListItemIcon-root,
+    .css-vubbuv,
+    .css-1f8bwsm {
+      margin-left: -16px !important;
+      min-width: 40px !important;
+      color: rgba(1, 114, 182, 1) !important;
+    }
+  }
+  .main-sidebar__list {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    height: 550px;
+    overflow-y: auto;
+
+  }
+  .main-sidebar__list::-webkit-scrollbar{
+    width: 4px;
+  }
+  // .main-sidebar__list::-webkit-scrollbar-thumb{
+
+  // }
+  &__list {
+    margin-top: 20px;
+    &--item {
+      display: flex;
+      align-items: center;
+      margin-bottom: 10px;
+      font-family: $fontFamily;
+      font-style: normal;
+      font-weight: 200;
+      font-size: 18px;
+      line-height: 24px;
+      span {
+        margin-left: 20px;
+        // font-weight: 500;
+      }
+      &:nth-child(7),
+      &:nth-child(9) {
+        border-bottom: 1px solid rgba(0, 0, 0, 0.11);
+        padding-bottom: 20px;
+      }
+    }
+  }
+  .filter--item{
+    padding: 8px 10px;
+    label{
+      margin-left: 14px;
+      font-size: 16px;
+      font-weight: 300;
+
+    }
+  }
+  .main-filter-list{
+    margin: 4px 0px;
+    .css-1mk9mw3-MuiList-root{
+      display: grid !important;
+      grid-template-columns: repeat(2, 1fr) !important;
+    }
+  }
+  .login-signup-header {
+    width: 150px;
+    height: 38px;
+    background: #0072b5;
+    border-radius: 11px;
+    button {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      font-family: $fontFamily;
+
+      color: #ffffff;
+    }
+  }
+  // .links-sidebar{
+  //   display: flex;
+  //   flex-direction: column;
+  // }
+  .social-links-sidebar {
+    // display: flex;
+    // flex-direction: column;
+    position: absolute;
+    bottom: 20px;
+    column-gap: 20px;
+  }
+  .li-address {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: flex-start !important;
+  }
+  @media (max-width: 360px) {
+    width: 100%;
+  }
+}
+@media (max-width: 310px) {
+  .social-links-sidebar,
+  .address-footer-sidebar {
+    margin-left: -10px;
+  }
+}
+.hidden {
+  width: 0% !important;
+  opacity: 0 !important;
+  transition: all 0.5s;
+}
+.main-header__list--item {
+}

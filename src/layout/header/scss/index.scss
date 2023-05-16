@@ -1,0 +1,159 @@
+@import "../../../theme/fonts/index.scss";
+
+.main-header-front {
+  width: 80%;
+  background-color: white;
+  height: 60px;
+  
+
+  .bar-box-hamburger {
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    border-radius: 10px;
+    // margin-left: 200px;
+    padding-left: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    // @media screen and (max-width: 600px) {
+    //   margin-left: 10px;
+    // }
+    // @media screen and (max-width: 400px) {
+    //   margin-left: 4px;
+    // }
+    cursor: pointer;
+    .bar-box__line--1{
+      width: 20px;
+      height: 4px;
+      background-color: white;
+      margin-top: 3px;
+      border-radius: 4px;
+    }
+    .bar-box__line--2{
+      width: 25px;
+      height: 3.5px;
+      background-color: white;
+      margin-top: 6px;
+      border-radius: 4px;
+    }
+    .bar-box__line--3 {
+      width: 15px;
+      height: 4px;
+      background-color: white;
+      margin-top: 6px;
+      border-radius: 4px;
+    }
+  }
+
+}
+.mobheader {
+    display: none !important;
+  }
+.main-pagelinks a,
+.dropdown {
+  // font-family: 'Archivo';
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 15px !important;
+  letter-spacing: 0px !important;
+  //   line-height: 16px;
+  letter-spacing: 0.01em;
+
+  color: #000000;
+  font-family: $fontFamily;
+}
+
+.img-logo {
+  width: 80px;
+  height: 70px;
+
+}
+.login-signup {
+  width: 150px;
+  height: 38px;
+  background: #0072b5;
+  border-radius: 11px;
+  button {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    font-family: $fontFamily;
+
+    color: #ffffff;
+  }
+  :first-child {
+    // margin-right: -65px;
+  }
+}
+.selectbox li {
+  // font-family: 'Archivo';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  // line-height: 44px;
+  /* or 314% */
+  font-family: $fontFamily;
+
+  color: #2d343a;
+}
+@media (max-width: 768px) {
+  .main-header-front {
+    width: 100%;
+    padding: 8px;
+    height: auto;
+  }
+  .main-pagelinks a,
+  .dropdown {
+    font-size: 13px !important;
+  }
+  .login-signup {
+    button {
+      font-size: 15px !important;
+    }
+    :first-child {
+      // margin-right: -74px;
+    }
+  }
+  .selectbox li {
+    font-size: 14px;
+  }
+}
+@media (max-width: 530px) {
+    .main-header-front {
+        padding: 0px;
+    }
+  .web-page-header {
+    display: none !important;
+  }
+  .mobheader {
+    display: inline-block !important;
+    width: 100%;
+  }
+}
+@media (max-width: 468px) {
+  .login-signup {
+    width: 110px;
+
+    :first-child {
+      // margin-right: -40px;
+    }
+  }
+}
+@media (max-width: 430px) {
+  .main-pagelinks {
+    gap: 0.25rem !important;
+  }
+  .main-pagelinks a,
+  .dropdown {
+    font-size: 12px !important;
+  }
+  .login-signup {
+    width: 100px;
+
+    :first-child {
+      // margin-right: -25px;
+    }
+  }
+}

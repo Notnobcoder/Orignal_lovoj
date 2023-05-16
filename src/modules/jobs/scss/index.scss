@@ -1,0 +1,88 @@
+@import "../../../theme/fonts/index.scss";
+
+.job-section {
+  width: 100%;
+  background-color: #e5e5e5;
+  font-family: $fontFamily;
+  padding: 40px 0px;
+  .netsed-jobs {
+    width: 80%;
+    margin: 0 auto;
+
+    .job-heading {
+      h1 {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 42px;
+        line-height: 57px;
+        text-align: left;
+        letter-spacing: 0.01em;
+        cursor: pointer;
+        color: #2d343a;
+        text-transform: uppercase;
+        text-align: center;
+        margin: 20px 0px;
+        @media (max-width: 400px) {
+          font-size: 32px;
+        }
+      }
+    }
+    .lst-job {
+      font-style: normal;
+      font-weight: 700;
+      font-size: 42px;
+      line-height: 57px;
+      text-align: left;
+      letter-spacing: 0.01em;
+      cursor: pointer;
+      color: #2d343a;
+      text-transform: uppercase;
+      margin: 20px 0px;
+    }
+    .job-portion {
+      .location {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 57px;
+        text-align: left;
+        letter-spacing: 0.01em;
+        cursor: pointer;
+        color: #2d343a;
+        margin: 10px 0px 0px;
+      }
+      padding-bottom: 30px !important;
+      border-bottom: 2px solid black;
+    }
+    h1 {
+      font-size: 22px;
+      font-weight: 700;
+      cursor: pointer;
+      color: #2d343a;
+    }
+    p,
+    ul li {
+      font-size: 16px;
+      letter-spacing: 0.6px;
+    }
+    ul li {
+      list-style-type: circle;
+    }
+    .contact-job {
+      width: 200px;
+      padding: 14px 0px;
+      background-color: #0172b6;
+      color: white;
+      border-radius: 10px;
+      font-size: 18px;
+      margin: 20px 0px;
+      // button {
+      @media (max-width: 365px) {
+        width: 90% !important;
+      }
+    }
+    @media (max-width: 768px) {
+      width: 90%;
+    }
+  }
+}

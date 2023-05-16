@@ -1,0 +1,42 @@
+.otp_container {
+  width: 45vw;
+  background-color: lightblue;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+.otp_container h1 {
+  font-size: 3rem;
+  text-transform: capitalize;
+  padding-bottom: 2rem;
+}
+
+.otp {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.otp_container button {
+  margin-top: 2rem;
+  background-color: black;
+  color: white;
+  padding: 2rem 3rem;
+}
+
+@media screen and (min-width: 360px) {
+  .otp_container {
+    width: 90vw;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .otp_container {
+    width: 40vw;
+  }
+}

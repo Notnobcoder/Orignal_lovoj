@@ -1,0 +1,12 @@
+.threeD-sectionMob {
+  display: none;
+  @media (max-width: 1040px) {
+    display: inline-block;
+  }
+  .price{
+    // font-size: 21px;
+    line-height: 28px;
+    // text-align: center;
+    color: rgb(247, 23, 49);
+  }
+}

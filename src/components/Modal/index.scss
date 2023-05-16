@@ -1,0 +1,51 @@
+@import "../../theme/fonts/index.scss";
+
+.modal-box{
+    display: flex;
+    gap: 20px;
+    font-family: $fontFamily !important;
+
+    .userimg img{
+        border-radius: 14px;
+
+    }
+    .modal-desc{
+        margin-top: 16px;
+        &:last-child{
+            font-size: 20px;
+        }
+
+    }
+    .name-user{
+        font-size: 24px;
+    
+    }
+}
+.modal-btn{
+    margin-top: 14px;
+    
+    button{
+        background: #f0f0f3;
+        box-shadow: -10px -10px 30px #ffffff,
+          10px 10px 30px rgba(174, 174, 192, 0.4);
+        border-radius: 12px;
+        padding: 16px 0px;
+        margin: 10px 0px;
+        font-size: 20px;
+        font-weight: 400;
+        &:active {
+            background: #f0f0f3;
+            box-shadow: inset -8px -8px 16px #ffffff, inset 8px 8px 16px #d0d3d7;
+          }
+    }
+}
+.cross-btn{
+    // text-align: right;
+    button{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    font-size: 24px;
+    font-weight: bolder;
+}
+}

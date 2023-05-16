@@ -1,0 +1,12 @@
+.main-filter-list{
+    margin: 6px;
+    .css-1mk9mw3-MuiList-root{
+      display: grid !important;
+      grid-template-columns: repeat(2, 1fr) !important;
+    }
+    .filter--item{
+        label{
+            padding-left: 12px;
+        }
+    }
+  }

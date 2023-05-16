@@ -1,0 +1,54 @@
+@import "../../../../theme/fonts/index.scss";
+
+// .custmize{
+//   overflow-y: hidden !important;
+// }
+.customize-content{
+    width: 100%;
+
+  background-color: #e5e5e5;
+  font-family: $fontFamily;
+  padding: 3px 0px;
+  .nested-customize{
+    width: calc(100% - 30px);
+
+    .button-continue, .admin-back {
+      width: 100px;
+      // margin: 12px 0px;
+      background-color: #1876d2;
+      padding: 12px 0px;
+      color: white;
+      border-radius: 8px;
+      
+    }
+    .admin-back{
+      padding: 0px;
+    }
+
+  }
+  .button-div{
+    width: 45%;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .arrow-sign{
+    svg{
+      font-size: 2.5rem !important;
+    }
+  }
+}
+
+@media (max-width: 1040px) {
+  .button-div{
+    display: none;
+  }
+  .footer-customize{
+    display: none;
+  }
+  .nested-customize{
+    width: 100% !important;
+  }
+  .customize-content{
+    padding: 0px;
+  }
+}

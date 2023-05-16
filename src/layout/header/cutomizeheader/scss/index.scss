@@ -1,0 +1,178 @@
+.header-cutomize {
+  width: calc(100% - 30px);
+  background-color: white;
+  height: max-content;
+  // margin-bottom: 4px;
+  .shopping {
+    background-color: #e5e5e5;
+    padding: 8px;
+    border-radius: 50%;
+    img {
+      width: 30px;
+      height: 30px;
+    }
+  }
+  .btn-group {
+    display: none;
+  }
+  .css-8atqhb {
+    width: 75%;
+    margin: 0 auto;
+  }
+  .amount-shop {
+    position: absolute;
+    top: 4px;
+    right: -10px;
+    background-color: #1876d2;
+    padding: 8px;
+    height: 18px;
+    width: 19px;
+    font-size: 10px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 900;
+  }
+
+  @media (max-width: 400px) {
+    // width: 100% !important;
+    width: calc(100% - 14px) !important;
+
+  }
+}
+@media (max-width: 768px) {
+  .header-cutomize {
+    width: 100% !important;
+    padding: 8px;
+    height: auto !important;
+  }
+}
+.bar-box-landing {
+  width: 48px;
+  height: 48px;
+  background-color: black;
+  border-radius: 10px;
+  // margin-left: 200px;
+  padding-left: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  // @media screen and (max-width: 600px) {
+  //   margin-left: 40px;
+  // }
+  cursor: pointer;
+  &__line--1 {
+    width: 18px;
+    height: 4px;
+    background-color: white;
+    margin-top: 3px;
+    border-radius: 4px;
+  }
+  &__line--2 {
+    width: 28px;
+    height: 3.5px;
+    background-color: white;
+    margin-top: 6px;
+    border-radius: 4px;
+  }
+  &__line--3 {
+    width: 14px;
+    height: 4px;
+    background-color: white;
+    margin-top: 6px;
+    border-radius: 4px;
+  }
+
+  @media (max-width: 768px) {
+    margin-left: 5px;
+  }
+}
+.steppers {
+  .css-ascpo7-MuiStepLabel-root {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center;
+  }
+  .css-1u4zpwo-MuiSvgIcon-root-MuiStepIcon-root.Mui-completed,
+  .css-4ff9q7.Mui-completed {
+    color: #02b914 !important;
+  }
+}
+.css-j5w0w9-MuiStepConnector-root {
+  // margin-top: -10px !important;
+}
+.css-z7uhs0-MuiStepConnector-line {
+  margin-top: -12px !important;
+}
+.css-1bw0nnu-MuiStep-root {
+  padding-left: 2px !important;
+  padding-right: 2px !important;
+}
+.css-qivjh0-MuiStepLabel-label {
+  font-size: 12px !important;
+  width: 30px;
+  display: flex !important;
+  justify-content: space-around !important;
+}
+@media (max-width: 1040px) {
+  .louoj-logo {
+    display: none !important;
+  }
+  .css-8atqhb {
+    width: 80% !important;
+  }
+  .btn-group {
+    display: flex !important;
+    .arrow-sign {
+      cursor: default !important;
+      svg {
+        font-size: 2rem !important;
+      }
+    }
+  }
+}
+@media (max-width: 768px) {
+  .css-16ubnlw-MuiStepLabel-labelContainer {
+    display: none !important;
+  }
+  .css-8atqhb {
+    width: 65%;
+  }
+  // .steppers {
+  .css-1hngkjo {
+    display: none !important;
+  }
+  // }
+  .css-z7uhs0-MuiStepConnector-line {
+    margin-top: 0px !important;
+  }
+}
+@media (max-width: 480px) {
+  .louoj-logo {
+    display: inline-flex !important;
+  }
+  .header-customize {
+    width: 100%;
+    justify-content: space-between !important;
+  }
+  // .steppers {
+  .css-8atqhb {
+    width: 100% !important;
+    margin: 4px 0px !important;
+  }
+  .css-1hngkjo {
+    display: none !important;
+  }
+  // }
+  .header-cutomize {
+    padding: 0px !important;
+    .css-mro3c9 {
+      padding-left: 0px !important;
+      padding-right: 0px !important;
+      margin-left: 4px !important;
+    }
+  }
+}

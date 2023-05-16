@@ -1,0 +1,265 @@
+body {
+	font-family: 'Raleway', sans-serif !important;
+	margin: 0px;
+	letter-spacing: 0.04em;
+	overflow: hidden;
+}
+#info {
+	position: absolute;
+	padding: 10px;
+	width: 100%;
+	text-align: center;
+}
+a {
+	text-decoration: underline;
+	cursor: pointer;
+}
+.controls {
+	position: absolute;
+	height: 80%;
+	direction: rtl;
+	text-align: left;
+	padding-left: 20px;
+    left: 20px;
+    overflow-y: auto;
+	top: 100px;
+	width: 560px;
+}
+.controls2 {
+	position: absolute;
+	bottom:  160px;
+	left: 100px;
+}
+.controls3 {
+	position: absolute;
+	bottom: 100px;
+	left: 100px;
+}
+li.disabled img.menu-main-icon {
+	opacity: 0.4;
+}
+img.menu-main-icon {
+	width: 60px;
+}
+img.menu-icon {
+	float: left;
+	width: 24px;
+	margin-right: 10px;
+}
+.btn-txt {
+	margin-top: 5px;
+	display: inline-block;
+	width: 98px;
+}
+.ctrl {
+	margin-left: 20px;
+	text-align: left;
+}
+.ctrlm {
+	margin-left: 0px;
+	text-align: left;
+}
+.ctrl2 {
+	/*opacity: 0.4;*/
+	margin-left: 40px;
+	text-align: left;
+}
+
+.ctrl3 {
+	/*opacity: 0.4;*/
+	margin-left: 60px;
+}
+.colors-panel {
+	padding-top: 40px;
+	width: 260px;
+	text-align: center;
+	background-color: rgba(0,0,0,0.4);
+	height: 100%;
+	position: absolute;
+	right: 0;
+	transform: translate3d(260px, 0, 0);
+	-webkit-transition: all .6s;
+	-moz-transition: all .6s;
+	-ms-transition: all .6s;
+	-o-transition: all .6s;
+	transition: all .6s;
+}
+.colors-panel.on {
+	transform: translate3d(0, 0, 0);
+}
+div.color {
+	display: inline-block;
+	width: 100px;
+	height: 60px;
+	margin: 10px;
+	cursor: pointer;
+	overflow: hidden;
+	border-radius: 5px;
+	-webkit-transition: all .6s;
+	-moz-transition: all .6s;
+	-ms-transition: all .6s;
+	-o-transition: all .6s;
+	transition: all .6s;
+}
+div.color:hover {
+	opacity: 0.7;
+}
+img.color-image {
+	width: 100%;
+}
+.big-container {
+	height: 55px;
+	overflow: hidden;
+	-webkit-transition: all .6s;
+	-moz-transition: all .6s;
+	-ms-transition: all .6s;
+	-o-transition: all .6s;
+	transition: all .6s;
+}
+.mini-container {
+	height: 55px;
+	overflow: hidden;
+	-webkit-transition: all .6s;
+	-moz-transition: all .6s;
+	-ms-transition: all .6s;
+	-o-transition: all .6s;
+	transition: all .6s;
+}
+
+.mini-container2 {
+	height: 55px;
+	overflow: hidden;
+	-webkit-transition: all .6s;
+	-moz-transition: all .6s;
+	-ms-transition: all .6s;
+	-o-transition: all .6s;
+	transition: all .6s;
+}
+a.top {
+	text-align: center;
+}
+
+
+
+
+#progress {
+	color: white;
+	position: relative;
+	top: 40%;
+	width: 100%;
+	font-size: 20px;
+	font-weight: lighter;
+	z-index: 100;
+	text-align: center;
+	display:none;
+}
+.shadow {
+	-moz-box-shadow: 0px 0px 5px #000;
+	-webkit-box-shadow: 0px 0px 5px #000;
+	box-shadow: 0px 0px 5px #000;
+}
+#progressbar {
+	text-align: center;
+	background: #888;
+	width: 250px;
+	height: 5px;
+	margin-top: 10px;
+}
+#bar {
+	background:#fff;
+	width:0px;
+	height:5px;
+	-webkit-transition: all .3s;
+	-moz-transition: all .3s;
+	-ms-transition: all .3s;
+	-o-transition: all .3s;
+	transition: all .3s;
+}
+.percent {
+	margin-top: 15px;
+}
+.loader2 {
+	position: absolute;
+	z-index: 100500;
+	color: #fff;
+	text-align: center;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	/*background-image: url("../img/ps_logo.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-color: #555;*/
+	background-color: rgba(0,0,0,1);
+}
+.logo_load {
+	width: 200px;
+	margin-bottom: 20px;
+	/*margin-left: 45px;*/
+}
+.reset {
+	position: absolute;
+	top: 5%;
+	right: 120px;
+	width: 80px;
+}
+.order {
+	position: absolute;
+	bottom: 5%;
+	left: 50%;
+	width: 90px;
+	margin-left: -45px;
+}
+.order-btn {
+	width: 90px !important;
+	min-width: 20px;
+	text-align: center;
+}
+.reset-btn {
+	text-align: center;
+    height: 44px !important;
+}
+@media all and (max-width: 640px) {
+	.controls {
+		top: 20px;
+		left: -10px;
+		width: 20%;
+	}
+	.mini-container {
+		width: 20%;
+		min-width: 90px;		
+	}
+	img.menu-icon {
+	    width: 40px;
+	    margin-right: 0;
+	}
+	.mdl-button {
+	    height: 50px;
+	    padding: 10px 16px 2px;
+	    min-width: 15px;
+	}
+	.colors-panel {
+	    width: 120px;
+	}
+	.controls3 {
+	    bottom: 20px;
+	    top: auto;
+	}
+	#cssmenu {
+		width: 80px;
+	}
+	img.menu-icon {
+		width: 30px;
+		float: none;
+	}
+	img.menu-main-icon {
+		width: 30px;
+	}
+	#cssmenu ul ul li a {
+		text-align: center;
+		padding: 10px 0;
+	}
+	span {
+		padding-right: 0;
+	}
+}

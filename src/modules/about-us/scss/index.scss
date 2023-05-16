@@ -1,0 +1,197 @@
+@import "../../../theme/fonts/index.scss";
+
+.about-section {
+  width: 100%;
+  background-color: #e5e5e5;
+  font-family: $fontFamily;
+  padding: 40px 0px;
+  .nested-about {
+    width: 80%;
+    margin: 0 auto;
+    @media (max-width: 768px) {
+      width: 100%;
+      padding: 0px 20px;
+    }
+    .header-section {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      row-gap: 12px;
+      width: 100%;
+      .child-nested-one {
+        background: #f0f0f3;
+        box-shadow: -10px -10px 30px #ffffff,
+          10px 10px 30px rgba(174, 174, 192, 0.4);
+        border-radius: 42px;
+        padding: 14px 18px;
+      }
+      .child-nested-one:active {
+        // :active{
+        background: #f0f0f3;
+        box-shadow: inset -8px -8px 16px #ffffff, inset 8px 8px 16px #d0d3d7;
+        border-radius: 42px;
+        // }
+      }
+      .app-logo {
+        display: flex;
+        justify-content: flex-end;
+        @media (max-width: 768px) {
+          justify-content: center;
+        }
+      }
+      .child-nested-one,
+      .app-logo {
+        width: 50%;
+        video {
+          border-radius: 8px !important;
+        }
+        h1 {
+          font-style: normal;
+          font-weight: 700;
+          font-size: 52px;
+          line-height: 57px;
+          text-align: left;
+          letter-spacing: 0.01em;
+          cursor: pointer;
+          color: #2d343a;
+          text-transform: uppercase;
+        }
+        p {
+          font-style: normal;
+          font-weight: 200;
+          font-size: 22px;
+          line-height: 32px;
+          text-align: left;
+          letter-spacing: 0.01em;
+          margin: 20px 0px;
+          color: #2d343a;
+        }
+        @media (max-width: 768px) {
+          width: 100%;
+        }
+      }
+      @media (max-width: 768px) {
+        justify-content: center;
+      }
+    }
+
+    // Jounart Section
+    .about-jounary {
+      h1 {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 52px;
+        line-height: 57px;
+        text-align: left;
+        letter-spacing: 0.01em;
+        cursor: pointer;
+        color: #2d343a;
+        text-transform: uppercase;
+      }
+
+      .jounary-content {
+        .jounarychild {
+          // display: flex;
+          // justify-content: flex-start;
+
+          // align-items: center;
+          display: grid;
+          grid-template-columns: 150px 100px 1fr;
+          column-gap: 20px;
+          align-items: center;
+          background: #f0f0f3;
+          box-shadow: -10px -10px 30px #ffffff,
+            10px 10px 30px rgba(174, 174, 192, 0.4);
+          border-radius: 26px;
+          padding: 14px 18px;
+          .blub {
+            background-color: #0072b5;
+          }
+          p,
+          li {
+            font-style: normal;
+            font-weight: 200;
+            font-size: 28px;
+            line-height: 32px;
+            text-align: left;
+            letter-spacing: 0.01em;
+            margin: 20px 0px;
+            color: #2d343a;
+          }
+          li {
+            margin: 0px;
+            font-size: 22px;
+          }
+          .months {
+            // margin: 0px;
+          }
+          //  .months{
+          //   width: 16%;
+          //  }
+        }
+        .jounarychild:active {
+          background: #f0f0f3;
+          box-shadow: inset -8px -8px 16px #ffffff, inset 8px 8px 16px #d0d3d7;
+          border-radius: 42px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .jounary-content {
+    .jounarychild {
+      grid-template-columns: 100px 80px 1fr !important;
+      column-gap: 8px !important;
+      .blub {
+        display: flex;
+      }
+    }
+  }
+  .child-nested-one,
+  .about-jounary {
+    h1 {
+      font-size: 32px !important;
+    }
+    p,
+    li {
+      font-size: 18px !important;
+    }
+  }
+}
+@media (max-width: 425px) {
+  .jounary-content {
+    .jounarychild {
+      grid-template-columns: 100px 2fr !important;
+      column-gap: 8px !important;
+    }
+  }
+  .blub {
+    display: none !important;
+  }
+  .jounarychild {
+    .jou-heading {
+      font-size: 24px !important;
+      font-weight: 600;
+      margin: 0px !important;
+    }
+  }
+}
+@media (max-width: 400px) {
+  .jounary-content {
+    .jounarychild {
+      // grid-template-columns: 85px 70px 1fr !important;
+      // column-gap: 6px !important;
+      display: flex !important;
+      flex-direction: column !important;
+      align-items: flex-start !important;
+      // .blub {
+      //   display: flex !important;
+      //   height: 65px !important;
+      //   align-items: center !important;
+      // }
+    }
+  }
+}

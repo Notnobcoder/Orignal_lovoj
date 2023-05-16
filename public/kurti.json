@@ -1,0 +1,358 @@
+{
+    "menu" :[
+        {
+            "name" : "female",
+            "icon": "/modelsNew/Shirt.png",
+            "skip": true,
+            "display": "yes",
+            "submenu" : [
+                {
+                    "name" : "female",
+                    "icon" : "/modelsNew/Jacket.png",
+                    "skip" : true,
+                    "model" : [
+                        {
+                            "name" : "female",
+                            "path" : "/kurti/female/female.obj",
+                            "skip" : false,
+                            "glossy" : false,
+                            "angle" : 0,
+                            "height" : 0,
+                            "zoomlevel" : 2
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name" : "Body_Peplum",
+            "icon": "/modelsNew/Shirt.png",
+            "skip": false,
+            "display": "yes",
+            "submenu" : [
+                {
+                    "name" : "Body_Peplum",
+                    "icon" : "/modelsNew/Jacket.png",
+                    "skip" : false,
+                    "model" : [
+                        {
+                            "name" : "Peplum",
+                            "path" : "/kurti/Body_Peplum/Peplum.obj",
+                            "skip" : false,
+                            "glossy" : false,
+                            "angle" : 0,
+                            "height" : 0,
+                            "zoomlevel" : 2
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name" : "Body_Top",
+            "icon": "/modelsNew/Shirt.png",
+            "skip": true,
+            "display": "yes",
+            "submenu" : [
+                {
+                    "name" : "Body_Top",
+                    "icon" : "/modelsNew/Jacket.png",
+                    "skip" : true,
+                    "model" : [
+                        {
+                            "name" : "Body_Top",
+                            "path" : "/kurti/Body_Top/Body_Top.obj",
+                            "skip" : false,
+                            "glossy" : false,
+                            "angle" : 0,
+                            "height" : 0,
+                            "zoomlevel" : 2
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name" : "Sleeve",
+            "icon": "/modelsNew/Shirt.png",
+            "skip": false,
+            "submenu" : [
+                {
+                    "name" : "Sleeve_Bell_Small",
+                    "icon" : "/modelsNew/Jacket.png",
+                    "skip" : false,
+                    "display": "yes",
+                    "submenu" : [
+                        {
+                            "name" : "Bell_Small",
+                            "icon" : "/modelsNew/Shirt.png",
+                            "skip" : true,
+                            "model": [
+                                {
+                                    "name" : "Bell_Small",
+                                    "path" : "/kurti/Sleeve/Bell_Small.obj",
+                                    "skip" : false,
+                                    "glossy" : false,
+                                    "angle" : 0,
+                                    "height" : 0,
+                                    "zoomlevel" : 2
+                                }
+                            ]
+        
+                        }
+                    ]
+                },
+                {
+                    "name" : "Sleeve_Bell",
+                    "icon" : "/modelsNew/Shirt.png",
+                    "skip" : false,
+                    "display": false,
+                    "submenu" : [
+                        {
+                            "name" : "Bell",
+                            "icon" : "/modelsNew/Jacket.png",
+                            "skip" : true,
+                            "model" : [
+                                {
+                                    "name" : "Bell",
+                                    "path" : "/kurti/Sleeve/Bell.obj",
+                                    "skip" : false,
+                                    "glossy": false,
+                                    "angle" : 0,
+                                    "height": 0,
+                                    "zoomlevel": 2
+                                }
+                            ]
+        
+                        }
+                    ]
+                },
+                {
+                    "name" : "Sleeve_Full",
+                    "icon" : "/modelsNew/Jacket.png",
+                    "skip" : false,
+                    "display": false,
+                    "submenu" : [
+                        {
+                            "name" : "Full",
+                            "icon" : "/modelsNew/Jacket.png",
+                            "skip" : false,
+                            "model" : [
+                                {
+                                    "name" : "Full",
+                                    "path" : "/kurti/Sleeve/Full.obj",
+                                    "skip" : false,
+                                    "glossy": false,
+                                    "angle" : 0,
+                                    "height": 0,
+                                    "zoomlevel": 2  
+                                }
+                            ]
+                                    
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name" : "Body_With_Collar",
+            "icon": "/modelsNew/Shirt.png",
+            "skip": false,
+            "display": true,
+            "submenu" : [
+                {
+                    "name" : "Body_With_Collar",
+                    "icon" : "/modelsNew/Jacket.png",
+                    "skip" : false,
+                    "submenu" :[
+                        {
+                            "name" : "Body_With_Collar",
+                            "icon" : "/modelsNew/Jacket.png",
+                            "skip" : false,
+                            "model" : [
+                                {
+                                    "name" : "Body",
+                                    "path" : "/kurti/Body_With_Collar/Body.obj",
+                                    "skip" : false,
+                                    "glossy" : false,
+                                    "angle" : 0,
+                                    "height" : 0,
+                                    "zoomlevel" : 2
+                                }
+                            ]
+                        },
+                        {
+                            "name" : "Collar_Placket",
+                            "icon" : "/modelsNew/Jacket.png",
+                            "skip" : false,
+                            "model" : [
+                                {
+                                    "name" : "Collar_Placket",
+                                    "path" : "/kurti/Body_With_Collar/Collar_Placket.obj",
+                                    "skip" : false,
+                                    "glossy" : false,
+                                    "angle" : 0,
+                                    "height" : 0,
+                                    "zoomlevel" : 2
+                                }
+                            ]
+                        },
+                        {
+                            "name" : "Collar",
+                            "icon" : "/modelsNew/Shirt.png",
+                            "skip" : false,
+                            "model" : [
+                                {
+                                    "name" : "Collar",
+                                    "path" : "/kurti/Body_With_Collar/Collar.obj",
+                                    "skip" : false,
+                                    "glossy" : false,
+                                    "angle" : 0,
+                                    "height" : 0,
+                                    "zoomlevel" : 2
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name" : "Neck_Log_Boat",
+            "icon": "/modelsNew/Shirt.png",
+            "skip": false,
+            "display": false,
+            "submenu" : [
+                {
+                    "name" : "Neck_Log_Boat",
+                    "icon" : "/modelsNew/Jacket.png",
+                    "skip" : false,
+                    "model" : [
+                        {
+                            "name" : "Neck_Log_Boat",
+                            "path" : "/kurti/Neck_Log_Boat/Boat.obj",
+                            "skip" : false,
+                            "glossy" : false,
+                            "angle" : 0,
+                            "height" : 0,
+                            "zoomlevel" : 2
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name" : "Neck_Long_Round",
+            "icon": "/modelsNew/Shirt.png",
+            "skip": false,
+            "display": false,
+            "submenu" : [
+                {
+                    "name" : "Neck_Long_Round",
+                    "icon" : "/modelsNew/Jacket.png",
+                    "skip" : false,
+                    "model" : [
+                        {
+                            "name" : "Neck_Long_Round",
+                            "path" : "/kurti/Neck_Long_Round/Round.obj",
+                            "skip" : false,
+                            "glossy" : false,
+                            "angle" : 0,
+                            "height" : 0,
+                            "zoomlevel" : 2
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name" : "Neck_Long_Square",
+            "icon": "/modelsNew/Shirt.png",
+            "skip": false,
+            "display": false,
+            "submenu" : [
+                {
+                    "name" : "Neck_Long_Square",
+                    "icon" : "/modelsNew/Jacket.png",
+                    "skip" : false,
+                    "model" : [
+                        {
+                            "name" : "Neck_Long_Square",
+                            "path" : "/kurti/Neck_Long_Square/Square.obj",
+                            "skip" : false,
+                            "glossy" : false,
+                            "angle" : 0,
+                            "height" : 0,
+                            "zoomlevel" : 2
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name" : "Neck_Long_V",
+            "icon": "/modelsNew/Shirt.png",
+            "skip": false,
+            "display": false,
+            "submenu" : [
+                {
+                    "name" : "Neck_Long_V",
+                    "icon" : "/modelsNew/Jacket.png",
+                    "skip" : false,
+                    "model" : [
+                        {
+                            "name" : "Neck_Long_V",
+                            "path" : "/kurti/Neck_Long_V/V.obj",
+                            "skip" : false,
+                            "glossy" : false,
+                            "angle" : 0,
+                            "height" : 0,
+                            "zoomlevel" : 2
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name" : "Skirt_Long",
+            "icon": "/modelsNew/Shirt.png",
+            "skip": false,
+            "display": false,
+            "submenu" : [
+                {
+                    "name" : "Skirt_Long",
+                    "icon" : "/modelsNew/Jacket.png",
+                    "skip" : false,
+                    "submenu" : [
+                        {
+                            "name" : "Skirt_Long",
+                            "icon" : "/modelsNew/Jacket.png",
+                            "skip" : false,
+                            "model" : [
+                                {
+                                    "name" : "Skirt",
+                                    "path" : "/kurti/Skirt_Long/Skirt.obj",
+                                    "skip" : false,
+                                    "glossy" : false,
+                                    "angle" : 0,
+                                    "height" : 0,
+                                    "zoomlevel" : 2
+                                },
+                                {
+                                    "name" : "Fastening",
+                                    "path" : "/kurti/Skirt_Long/Fastening.obj",
+                                    "skip" : false,
+                                    "glossy": false,
+                                    "angle" : 0,
+                                    "height": 0,
+                                    "zoomlevel": 2
+                                }
+                            ]
+                        }
+                        
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,178 @@
+@import "../../../../../theme/fonts/index.scss";
+.wishlist-section {
+  width: 100%;
+  background-color: rgba(246, 246, 248, 1);
+  .nested-wishlist {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px 0px;
+    font-family: $fontFamily;
+
+    h1 {
+      font-style: normal;
+      font-weight: 700;
+      font-size: 40px;
+      line-height: 44px;
+      letter-spacing: 0.01em;
+      font-family: $fontFamily;
+      color: #0072b5;
+    }
+    .card-section {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(550px, 1fr));
+      gap: 12px;
+
+      .nested-card {
+        border: 1px solid gray;
+        border-radius: 8px;
+        display: grid;
+        grid-template-columns: 120px 1fr auto;
+        .date {
+          border-right: 1px solid gray;
+          //   padding: 10px 4px;
+          // color: red;
+          .number {
+            color: #0072b5;
+            font-weight: 700;
+            font-size: 24px;
+            padding: 4px 12px;
+          }
+          p {
+            border-bottom: 1px solid gray;
+            font-weight: 300;
+            font-size: 18px;
+            padding: 4px 12px;
+            font-weight: 500;
+          }
+          :last-child {
+            color: red;
+            // letter-spacing: 0.8px;
+          }
+          @media (max-width: 550px) {
+            border-right: none;
+          }
+        }
+        .img {
+          border-right: 1px solid gray;
+          img {
+            width: 286px;
+            height: 100%;
+          }
+          @media (max-width: 550px) {
+            border-right: none;
+          }
+        }
+        .content-wishlist {
+          .list-one {
+            font-size: 18px;
+          }
+          .list-two {
+            :first-child {
+              button {
+                background: #f0f0f3;
+                box-shadow: -10px -10px 30px #ffffff,
+                  10px 10px 30px rgba(174, 174, 192, 0.4);
+                border-radius: 12px;
+                padding: 16px 0px;
+                // margin: 10px 0px;
+                font-size: 20px;
+                font-weight: 900;
+                width: 200px;
+                &:active {
+                  background: #f0f0f3;
+                  box-shadow: inset -8px -8px 16px #ffffff,
+                    inset 8px 8px 16px #d0d3d7;
+                }
+              }
+              @media (max-width: 768px) {
+                width: 100% !important;
+                button {
+                  width: 0px;
+                }
+              }
+            }
+            :last-child {
+              background: #f0f0f3;
+              box-shadow: -10px -10px 30px #ffffff,
+                10px 10px 30px rgba(174, 174, 192, 0.4);
+              border-radius: 12px;
+              // padding: 16px 0px;
+              // margin: 10px 0px;
+              font-size: 20px;
+              width: 100px;
+
+              &:active {
+                background: #f0f0f3;
+                box-shadow: inset -8px -8px 16px #ffffff,
+                  inset 8px 8px 16px #d0d3d7;
+              }
+              svg {
+                font-size: 3.5rem !important;
+                color: rgba(251, 65, 40, 0.9);
+              }
+            }
+          }
+          :last-child {
+            width: 100%;
+            button {
+              background: #f0f0f3;
+              box-shadow: -10px -10px 30px #ffffff,
+                10px 10px 30px rgba(174, 174, 192, 0.4);
+              border-radius: 12px;
+              padding: 16px 0px;
+              // margin: 10px 0px;
+              font-size: 20px;
+              font-weight: 900;
+              // width: 200px;
+              &:active {
+                background: #f0f0f3;
+                box-shadow: inset -8px -8px 16px #ffffff,
+                  inset 8px 8px 16px #d0d3d7;
+              }
+            }
+          }
+        }
+        @media (max-width: 1024px) {
+          grid-template-columns: 120px 0.5fr 1fr;
+        }
+        @media (max-width: 550px) {
+          grid-template-columns: 1fr;
+        }
+      }
+      @media (max-width: 550px) {
+        grid-template-columns: none !important;
+        width: 100% !important;
+      }
+    }
+  }
+}
+.modal-addwishlist {
+  .css-11r052a {
+    width: 400px;
+    @media (max-width: 425px) {
+      width: 90% !important;
+    }
+  }
+  .modal-btn {
+    width: 100% !important;
+    :first-child {
+      background: #f0f0f3;
+      // box-shadow: -10px -10px 30px #ffffff,
+      //   10px 10px 30px rgba(174, 174, 192, 0.4);
+      border-radius: 12px;
+      // padding: 16px 0px;
+      // margin: 10px 0px;
+      font-size: 20px;
+      width: 100% !important;
+    }
+    .btn {
+      background-color: red;
+      color: white;
+      width: 100% !important;
+      &:active {
+        background-color: red !important;
+        box-shadow: none !important;
+      }
+    }
+  }
+}

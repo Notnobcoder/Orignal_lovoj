@@ -1,0 +1,307 @@
+@import "../../../../../theme/fonts/index.scss";
+.custom-fabrics {
+  display: grid;
+  grid-template-columns: 2.6fr 1.8fr 1fr;
+  font-family: $fontFamily;
+  margin-top: 10px;
+  column-gap: 14px;
+
+  .cloths-section {
+    display: flex;
+    justify-content: center;
+    column-gap: 12px;
+    row-gap: 8px;
+    flex-wrap: wrap;
+
+    height: 650px;
+    overflow-y: auto;
+
+    .nested-cloths {
+      // cursor: pointer;
+      cursor: default !important;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      background: #f0f0f3;
+      height: 155px;
+      box-shadow: 0px 0px 10px #ffffff, 10px 10px 30px rgba(174, 174, 192, 0.4);
+      border-radius: 18px;
+      padding: 2px 12px;
+      &:active {
+        background: #f0f0f3;
+        box-shadow: inset -8px -8px 16px #ffffff, inset 8px 8px 16px #d0d3d7;
+        cursor: default !important;
+      }
+      img {
+        border-radius: 12px;
+        width: 100px;
+        height: 100px;
+      }
+      .title {
+        font-size: 20px;
+        font-weight: bolder;
+        color: black;
+      }
+      .price {
+        color: red;
+        font-size: 18px;
+      }
+    }
+  }
+
+  .cloths-section::-webkit-scrollbar {
+    width: 0px;
+  }
+  .custom-style {
+    display: flex;
+    // justify-content: center;
+    gap: 12px;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    // flex-wrap: wrap;
+    height: 650px;
+    overflow-y: auto;
+    .brand-clothes {
+      h1 {
+        font-size: 24px;
+        font-weight: 900;
+        letter-spacing: 0.5px;
+        color: rgb(1, 114, 182);
+        // margin-top: 18px;
+      }
+    }
+  }
+  .rightComp-customize {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+  .threeD-section {
+    // background-color: black;
+    background: #f0f0f3;
+    box-shadow: -10px -10px 30px #ffffff,
+      10px 10px 30px rgba(174, 174, 192, 0.4);
+    border-radius: 18px;
+    margin-top: -50px;
+  }
+
+  .amount-cust-section {
+    background: #f0f0f3;
+    box-shadow: -10px -10px 30px #ffffff,
+      10px 10px 30px rgba(174, 174, 192, 0.4);
+    border-radius: 18px;
+    margin-top: -50px;
+    // position: relative;
+    position: absolute;
+    height: -webkit-fill-available;
+    width: 100%;
+  }
+
+  .amount-cust-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    .shopping-div {
+      background-color: #e5e5e5;
+      padding: 16px;
+      border-radius: 50%;
+    }
+
+    img {
+      //   padding: 70px;
+      width: 40px;
+      z-index: 1000;
+    }
+    .amount-shop {
+      position: absolute;
+      top: 10px;
+      right: -10px;
+      background-color: #1876d2;
+      padding: 8px;
+      height: 24px;
+      width: 24px;
+      font-size: 14px;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      font-weight: 900;
+    }
+    .actual-amount {
+      h1 {
+        font-size: 28px;
+        color: rgb(247, 23, 49);
+        line-height: 45px;
+      }
+    }
+    .infromation-img {
+      img {
+        width: 75px !important;
+      }
+    }
+    .clothename {
+      margin: 2px 0px;
+      border-bottom: 1px solid black;
+      text-align: center;
+      h1 {
+        font-size: 34px;
+        letter-spacing: 0.8px;
+        font-weight: 900;
+      }
+    }
+    .infromation-cloth {
+      margin: 14px 0px;
+      height: 300px;
+      overflow-y: auto;
+      .nested-info {
+        display: flex;
+        align-items: center;
+        column-gap: 10px;
+        margin: 10px 0px;
+        :first-child {
+          font-weight: 900;
+          letter-spacing: 0.6px;
+        }
+      }
+      &::-webkit-scrollbar {
+        width: 0px;
+      }
+      .total-amount {
+        border-top: 1px solid black;
+        border-bottom: 1px solid black;
+        padding: 14px 0px;
+        font-size: 26px;
+        .textRed {
+          color: red;
+        }
+      }
+    }
+  }
+
+  .leftComp-customize,
+  .rightComp-customize {
+    @media (max-width: 1040px) {
+      display: none !important;
+    }
+  }
+  @media (max-width: 1040px) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.threeD-section {
+  .share-img,
+  .info-img,
+  .price {
+    display: none;
+  }
+}
+
+.mobileDev-modal {
+  display: none;
+}
+// CSS three D Moal Mobile Devices
+@media (max-width: 1040px) {
+  .mobileDev-modal {
+    display: block;
+    .modal-mobiledev {
+      .css-1gkse3u,
+      .css-himxjj {
+        width: 550px;
+        @media (max-width: 550px) {
+          width: 100% !important;
+        }
+      }
+      .amount-cust-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        .shopping-div {
+          background-color: #e5e5e5;
+          padding: 16px;
+          border-radius: 50%;
+        }
+
+        img {
+          //   padding: 70px;
+          width: 40px;
+          z-index: 1000;
+        }
+        .amount-shop {
+          position: absolute;
+          top: 10px;
+          right: -10px;
+          background-color: #1876d2;
+          padding: 8px;
+          height: 24px;
+          width: 24px;
+          font-size: 14px;
+          border-radius: 50%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          color: white;
+          font-weight: 900;
+        }
+        .actual-amount-mob {
+          h1 {
+            font-size: 44px;
+            color: rgb(247, 23, 49);
+            line-height: 65px;
+          }
+        }
+        .clothename {
+          margin: 2px 0px;
+          border-bottom: 1px solid black;
+          text-align: center;
+          width: 100%;
+          h1 {
+            font-size: 34px;
+            letter-spacing: 0.8px;
+            font-weight: 900;
+          }
+        }
+        .infromation-cloth {
+          margin: 14px 0px;
+          height: 300px;
+          overflow-y: auto;
+          .nested-info {
+            display: flex;
+            align-items: center;
+            column-gap: 10px;
+            margin: 10px 0px;
+            :first-child {
+              font-weight: 900;
+              letter-spacing: 0.6px;
+            }
+          }
+          &::-webkit-scrollbar {
+            width: 0px;
+          }
+        }
+      }
+    }
+  }
+  .threeD-section {
+    width: 100% !important;
+    position: relative;
+    margin-top: 0px !important;
+    background-color: transparent !important;
+    box-shadow: none !important;
+    .app-louoj {
+      width: 100%;
+      height: 80vh;
+    }
+    .share-img,
+    .info-img,
+    .price {
+      // display: none;
+      display: inline-block;
+    }
+  }
+}

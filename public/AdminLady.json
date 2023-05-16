@@ -1,0 +1,131 @@
+{
+    "menu" : [
+        {
+            "name" : "Dress",
+            "icon" : "/modelsNew/Jacket.png",
+            "skip" : true,
+            "display" : "yes",
+            "submenu" : [
+                {
+                    "name" : "Back",
+                    "icon" : "/Lady/Back/back2.png",
+                    "skip" : false,
+                    "submenu" : [
+                        {
+                            "name" : "Back_Boat",
+                            "icon" : "/Lady/Back/back2.png",
+                            "skip" : false,
+                            "model" : [
+                                {
+                                    "name" : "Boat",
+                                    "path" : "/Dress/Dress_Back/Dress_Back_Boat.obj",
+                                    "skip" : true,
+                                    "glossy" : false,
+                                    "angle" : 0,
+                                    "icon" : "/Lady/Back/back2.png",
+                                    "zoomlevel" : 2
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name" : "Front",
+                    "icon" : "/Lady/Back/back2.png",
+                    "skip" : false,
+                    "submenu" : [
+                        {
+                            "name" : "Front",
+                            "icon" : "/Lady/Back/back2.png",
+                            "skip" : false,
+                            "model" : [
+                                {
+                                    "name" : "Front_Abs",
+                                    "path" : "/Dress/Dress_Churidar/Dress_Churidar_Abs.obj",
+                                    "skip" : false,
+                                    "glossy" : false,
+                                    "angle" : 0,
+                                    "icon" : "/Lady/Back/back2.png",
+                                    "zoomlevel" : 2
+                                }
+                            ]
+        
+                        }
+                    ]
+                },
+                {
+                    "name" : "Length",
+                    "icon" : "/Lady/Back/back2.png",
+                    "skip" : false,
+                    "submenu" : [
+                        {
+                            "name" : "Length_Above_Knee",
+                            "icon" : "/Lady/Back/back2.png",
+                            "skip" : false,
+                            "model" : [
+                                {
+                                    "name" : "With Out Cut",
+                                    "path" : "/Dress/Dress_Lenght/Dress_Lenght_Abouve_Knee_Wo_Cut.obj",
+                                    "skip" : false,
+                                    "glossy" : false,
+                                    "angle" : 0,
+                                    "icon" : "/Lady/Back/back2.png",
+                                    "zoomlevel" : 2
+                                }
+                            ]
+        
+                        }
+                    ]
+                },
+                {
+                    "name" : "Neck",
+                    "icon" : "/Lady/Back/back2.png",
+                    "skip" : false,
+                    "submenu" : [
+                        {
+                            "name" : "Neck_Boat",
+                            "icon" : "/Lady/Back/back2.png",
+                            "skip" : false,
+                            "model" : [
+                                {
+                                    "name" : "Boat",
+                                    "path" : "/Dress/Dress_Neck/Dress_Neck_Boat.obj",
+                                    "skip" : false,
+                                    "glossy" : false,
+                                    "angle" : 0,
+                                    "icon" : "/Lady/Back/back2.png",
+                                    "zoomlevel" : 2
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name" : "Sleeve",
+                    "icon" : "/Lady/Back/back2.png",
+                    "skip" : false,
+                    "submenu" : [
+                        {
+                            "name" : "Sleeve_Long",
+                            "icon" : "/Lady/Back/back2.png",
+                            "skip" : false,
+                            "model" : [
+                                {
+                                    "name" : "Long",
+                                    "path" : "/Dress/Dress_Sleeve/Dress_Sleeve_34th.obj",
+                                    "skip" : false,
+                                    "glossy" : false,
+                                    "angle" : 0,
+                                    "icon" : "/Lady/Back/back2.png",
+                                    "zoomlevel" : 2
+                                }
+                            ]
+        
+                        }
+                    ]
+                }
+
+            ]
+        }
+    ]
+}

@@ -1,0 +1,114 @@
+@import "../../../theme/fonts/index.scss";
+
+.team-section {
+  width: 100%;
+  background-color: #e5e5e5;
+  font-family: $fontFamily;
+  padding: 40px 0px;
+  .nested-team {
+    width: 80%;
+    margin: 0 auto;
+
+    .team-heading,
+    .investor-heading {
+      h1 {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 38px;
+        line-height: 57px;
+        text-align: left;
+        letter-spacing: 0.01em;
+        cursor: pointer;
+        color: #2d343a;
+        text-transform: uppercase;
+        text-align: center;
+        margin: 20px 0px;
+      }
+    }
+    .team-desc {
+      // display: flex;
+      // justify-content: center;
+      // align-items: center;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+
+      // flex-wrap: wrap;
+      .section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        img {
+          border-radius: 50%;
+          height: 180px;
+          width: 180px;
+        }
+        h1 {
+          font-size: 28px;
+          margin: 14px 0px;
+          font-weight: 600;
+        }
+        p {
+          text-align: center;
+          width: 50%;
+          font-size: 18px;
+          @media (max-width: 768px) {
+            width: 100%;
+          }
+        }
+      }
+      @media (max-width: 1024px) {
+        //    flex-wrap: wrap;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        row-gap: 14px;
+      }
+    }
+
+    .investors {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      column-gap: 8px;
+      .investor {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        h1 {
+          font-size: 28px;
+          margin: 14px 0px;
+          font-weight: 600;
+        }
+        p {
+          text-align: center;
+          width: 80%;
+          font-size: 18px;
+          @media (max-width: 768px) {
+            width: 100%;
+          }
+        }
+        .linkdin{
+          width: 40px;
+          position: absolute;
+          bottom: 20px;
+          right: 20px;
+          z-index: 99;
+     background-color: white;
+     cursor: pointer;
+        }
+      }
+      @media (max-width: 1024px) {
+        //    flex-wrap: wrap;
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 14px;
+      }
+      @media (max-width: 605px) {
+        //    flex-wrap: wrap;
+        grid-template-columns: repeat(1, 1fr);
+      }
+    }
+
+    @media (max-width: 768px) {
+      width: 100%;
+    }
+  }
+}

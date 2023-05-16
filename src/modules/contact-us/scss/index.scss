@@ -1,0 +1,93 @@
+@import "../../../theme/fonts/index.scss";
+
+.content-section {
+  width: 100%;
+  background-color: #e5e5e5;
+  font-family: $fontFamily;
+  padding: 40px 0px;
+  .nested-contact {
+    width: 80%;
+    margin: 0 auto;
+
+    .investor-heading {
+      h1 {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 38px;
+        line-height: 57px;
+        text-align: left;
+        letter-spacing: 0.01em;
+        cursor: pointer;
+        color: #2d343a;
+        text-transform: uppercase;
+        text-align: center;
+        margin: 20px 0px;
+      }
+    }
+
+    .cont-page {
+      width: 600px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      margin: 0 auto;
+      .textarea,
+      .text-input {
+        width: 70%;
+        label {
+          display: block;
+          padding-left: 8px;
+          font-style: normal;
+          font-weight: 600;
+          font-size: 15.1004px;
+          line-height: 20px;
+
+          color: #0172b6;
+        }
+        textarea,
+        input {
+          width: 100%;
+          border: 1px solid rgba(0, 0, 0, 0.3);
+          border-radius: 8px;
+          outline: none;
+
+          //   border: none;
+        }
+        textarea {
+          padding: 10px 20px;
+          font-size: 16px;
+        }
+      }
+      .button-contact {
+        width: 70%;
+        padding: 14px 0px;
+        background-color: #0172b6;
+        color: white;
+        border-radius: 10px;
+        font-size: 18px;
+        // button {
+          @media (max-width: 365px) {
+            width: 90% !important;
+          }
+        // }
+      }
+      @media (max-width: 668px) {
+        width: 100% !important;
+      }
+    }
+    @media (max-width: 668px) {
+      .textarea,
+      .text-input {
+        width: 90% !important;
+      }
+      // .textarea{
+      //     padding: 0px 33px;
+      // }
+    }
+
+    @media (max-width: 768px) {
+      width: 100% !important;
+    }
+  }
+}

@@ -1,0 +1,149 @@
+@import "../../../../../theme/fonts/index.scss";
+.custom-style {
+  display: grid;
+  grid-template-columns: 2.6fr 1.8fr 1fr;
+  font-family: $fontFamily;
+
+  margin-top: 8px;
+  column-gap: 14px;
+
+  .cloths-section {
+    display: flex;
+    // justify-content: center;
+    gap: 12px;
+    flex-direction: column;
+    // flex-wrap: wrap;
+    height: 650px;
+    overflow-y: auto;
+    .brand-clothes {
+      h1 {
+        font-size: 24px;
+        font-weight: 900;
+        letter-spacing: 0.5px;
+        color: rgb(1, 114, 182);
+        // margin-top: 18px;
+      }
+    }
+    .nested-cloths {
+      cursor: pointer;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      background: #f0f0f3;
+      box-shadow: 0px 0px 10px #ffffff, 10px 10px 30px rgba(174, 174, 192, 0.4);
+      border-radius: 18px;
+      padding: 12px;
+      img {
+        border-radius: 12px;
+        width: 100px;
+        height: 100px;
+      }
+      .title {
+        font-size: 20px;
+        font-weight: bolder;
+        color: black;
+      }
+      .price {
+        color: red;
+        font-size: 18px;
+      }
+      &:active {
+        background: #f0f0f3;
+        box-shadow: inset -8px -8px 16px #ffffff, inset 8px 8px 16px #d0d3d7;
+      }
+    }
+  }
+  .cloths-section::-webkit-scrollbar {
+    width: 0px;
+  }
+  .threeD-section {
+    // background-color: black;
+    background: #f0f0f3;
+    box-shadow: -10px -10px 30px #ffffff,
+      10px 10px 30px rgba(174, 174, 192, 0.4);
+    border-radius: 18px;
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    height: 700px;
+    
+  }
+  .amount-cust-section {
+    background: #f0f0f3;
+    box-shadow: -10px -10px 30px #ffffff,
+      10px 10px 30px rgba(174, 174, 192, 0.4);
+    border-radius: 18px;
+    margin-top: -50px;
+  }
+
+  .amount-cust-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    .shopping-div {
+      background-color: #e5e5e5;
+      padding: 16px;
+      border-radius: 50%;
+    }
+
+    img {
+      //   padding: 70px;
+      width: 40px;
+      z-index: 1000;
+    }
+    .amount-shop {
+      position: absolute;
+      top: 10px;
+      right: -10px;
+      background-color: #1876d2;
+      padding: 8px;
+      height: 24px;
+      width: 24px;
+      font-size: 14px;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      font-weight: 900;
+    }
+    .actual-amount {
+      h1 {
+        font-size: 44px;
+        color: rgb(247, 23, 49);
+        line-height: 65px;
+      }
+    }
+    .clothename {
+      margin: 2px 0px;
+      border-bottom: 1px solid black;
+      text-align: center;
+      width: 100%;
+      h1 {
+        font-size: 34px;
+        letter-spacing: 0.8px;
+        font-weight: 900;
+      }
+    }
+    .infromation-cloth {
+      margin: 14px 0px;
+      height: 300px;
+      overflow-y: auto;
+      .nested-info {
+        display: flex;
+        align-items: center;
+        column-gap: 10px;
+        margin: 10px 0px;
+        :first-child {
+          font-weight: 900;
+          letter-spacing: 0.6px;
+        }
+      }
+      &::-webkit-scrollbar {
+        width: 0px;
+      }
+    }
+  }
+}

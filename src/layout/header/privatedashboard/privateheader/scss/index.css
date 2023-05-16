@@ -1,0 +1,8 @@
+.main-header {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  background-color: red;
+  width: 100%;
+}
+/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,99 @@
+.listData-section {
+  .exiting-heading {
+    font-size: 26px;
+    letter-spacing: 0.6px;
+    color: rgb(1, 114, 182);
+  }
+}
+
+.listData_desc {
+  display: flex;
+  align-items: center;
+  column-gap: 18px;
+  width: 100%;
+  overflow-x: auto;
+
+  .listData-card {
+    background: #f0f0f3;
+    box-shadow: 0px 0px 0px #ffffff, 10px 10px 30px rgba(174, 174, 192, 0.4);
+    border-radius: 12px;
+    padding: 16px 8px;
+    min-width: 300px;
+    // &:first-child{
+    //     border-bottom: 1px solid black !important;
+    // }
+    .card-heading {
+      border-bottom: 1px solid gray;
+    }
+    .card-desc {
+      height: 150px;
+      overflow-y: auto;
+      margin-bottom: 18px;
+      h2 {
+        font-size: 18px;
+        color: rgb(1, 114, 182);
+        letter-spacing: 0.6px;
+        font-weight: 900;
+        padding: 10px 0px;
+      }
+    }
+    .links {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .button-one {
+        background: #f0f0f3;
+        box-shadow: 0px 0px 0px #ffffff, 10px 10px 30px rgba(174, 174, 192, 0.4);
+        border-radius: 12px;
+        padding: 8px 12px;
+        font-size: 24px;
+      }
+      .button-three {
+        background: #f0f0f3;
+        box-shadow: 0px 0px 0px #ffffff, 10px 10px 30px rgba(174, 174, 192, 0.4);
+        border-radius: 12px;
+        padding: 8px 12px;
+        font-size: 24px;
+        color: red;
+      }
+      .btn-two {
+        // background: #f0f0f3;
+        // box-shadow: 0px 0px 0px #ffffff, 10px 10px 30px rgba(174, 174, 192, 0.4);
+        border-radius: 12px;
+        padding: 8px 12px;
+        font-size: 18px;
+        background-color: black;
+        width: 100%;
+        margin: 0px 12px;
+        color: white;
+      }
+      //   &:nth-child(2){
+      //     background-color: black !important;
+      //   }
+    }
+  }
+  &::-webkit-scrollbar {
+    width: 4px;
+    // background-color: transparent;
+    background-color: #e5e5e5;
+  }
+}
+.info-section {
+  h1 {
+    text-align: center;
+    font-size: 28px;
+    letter-spacing: 0.8px;
+    font-weight: bolder;
+    color: black;
+  }
+  p {
+    text-align: center;
+    letter-spacing: 0.4px;
+    // padding: 12px 0px;
+    margin: 18px 0px;
+  }
+  .btns-froomMeasurment {
+    width: 450px;
+    margin: 12px auto;
+  }
+}

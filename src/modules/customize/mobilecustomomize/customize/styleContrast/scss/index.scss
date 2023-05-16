@@ -1,0 +1,50 @@
+.cloths-section-stylcont {
+    display: flex;
+    // justify-content: center;
+    gap: 12px;
+    flex-direction: column;
+    // flex-wrap: wrap;
+    // height: 650px;
+    // overflow-y: auto;
+    .brand-clothes {
+      h1 {
+        font-size: 24px;
+        font-weight: 900;
+        letter-spacing: 0.5px;
+        color: rgb(1, 114, 182);
+        // margin-top: 18px;
+      }
+    }
+    .nested-cloths {
+      cursor: pointer;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      background: #f0f0f3;
+      box-shadow: 0px 0px 10px #ffffff, 10px 10px 30px rgba(174, 174, 192, 0.4);
+      border-radius: 18px;
+      padding: 12px;
+      img {
+        border-radius: 12px;
+        width: 100px;
+        height: 100px;
+      }
+      .title {
+        font-size: 20px;
+        font-weight: bolder;
+        color: black;
+      }
+      .price {
+        color: red;
+        font-size: 18px;
+      }
+      &:active {
+        background: #f0f0f3;
+        box-shadow: inset -8px -8px 16px #ffffff, inset 8px 8px 16px #d0d3d7;
+      }
+    }
+  }
+  .cloths-section::-webkit-scrollbar {
+    width: 0px;
+  }
